@@ -1,4 +1,4 @@
-- msg: test for roboshop
+- name: test for roboshop
   hosts: all
   roles:
     - "{{ROLE_NAME}}"
