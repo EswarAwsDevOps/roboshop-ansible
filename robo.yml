@@ -1,0 +1,4 @@
+- name: robo test
+  hosts: all
+  roles:
+    - "{{print}}"
