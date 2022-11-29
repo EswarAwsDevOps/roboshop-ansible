@@ -1,4 +1,0 @@
-- name: robo test
-  hosts: all
-  roles:
-    - "{{ROLE_NAME}}"

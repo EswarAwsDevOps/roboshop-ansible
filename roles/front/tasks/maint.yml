@@ -1,3 +1,0 @@
-- name: test for robo
-  debug:
-    msg: helloworld
