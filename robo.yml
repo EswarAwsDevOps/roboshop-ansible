@@ -1,4 +1,4 @@
 - name: robo test
   hosts: all
   roles:
-    - "{{print}}"
+    - "{{ROLE_NAME}}"
