@@ -2,3 +2,11 @@
   ansible.builtin.yum:
     name: nginx
     state: installed
+       
+       
+       #****ADDING A USER***
+
+- name: add roboshop application user\
+  when: App_User is defined
+  ansible.builtin.user:
+  name: "{{user}}"
