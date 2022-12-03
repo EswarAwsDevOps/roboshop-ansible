@@ -1,6 +1,6 @@
 
 ##### Change these values ###
-ZONE_ID="Z02997672I591AG282OU5"
+ZONE_ID="Z09809822GU5CVYBGWN39"
 SG_NAME="allow-all"
 #ENV="dev"
 #############################
@@ -9,7 +9,7 @@ env=dev
 
 create_ec2() {
   PRIVATE_IP=$(aws ec2 run-instances \
-      --image-id ${ami-0b0dcb5067f052a63} \
+      --image-id ${AMI_ID} \
       --instance-type t3.micro \
       --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=${COMPONENT}}]" "ResourceType=spot-instances-request,Tags=[{Key=Name,Value=${COMPONENT}}]"  \
       --instance-market-options "MarketType=spot,SpotOptions={SpotInstanceType=persistent,InstanceInterruptionBehavior=stop}"\
