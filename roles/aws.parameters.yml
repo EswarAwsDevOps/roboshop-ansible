@@ -4,5 +4,5 @@
     -name: Create Value
      community.aws.aws_ssm_paramater_store:
     name: "paraqm.dev.catalogue.MONGO"
-    value: "Eswar"
+    value: "true"
     region: "us-east-1"
