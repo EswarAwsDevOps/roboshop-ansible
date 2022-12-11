@@ -1,0 +1,8 @@
+- name: Create All Roboshop Parameters
+  hosts: localhost
+  tasks:
+    -name: Create Value
+     community.aws.aws_ssm_paramater_store:
+    name: "paraqm.dev.catalogue.MONGO"
+    value: "Eswar"
+    region: "us-east-1"
