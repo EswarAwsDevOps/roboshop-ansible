@@ -3,13 +3,13 @@
   tasks:
     - name: Loop on List
       ansible.builtin.debug:
-        msg: "fruit name - {{item}}"
+        msg: "Fruit Name - {{item}}"
       loop:
         - orange
         - apple
       - name: Loop on List of maps
         ansible.builtin.debug:
-          msg: "fruit name - {{item.name}} , count = {{item.count}}"
+          msg: "Fruit Name - {{item.name}} , Count = {{item.count}}"
        loop:
          - {name: "orange", count: 100}
          - {name: "apple", count: 50}
