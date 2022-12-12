@@ -9,6 +9,6 @@
         - apple
     - name: loop on list of maps
       amsible.builtin.debug:
-        msg: "Fruit Name - {{item.Name}} , Count = {{item.count}}"
-          - {name: "orange",count: 100}
+        msg: "Fruit Name - {{item.name}} , Count = {{item.count}}"
+          - {name: "orange", count: 100}
           - {name: "apple", count: 50}

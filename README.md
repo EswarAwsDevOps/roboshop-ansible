@@ -1,7 +1,7 @@
 # roboshop-ansible
 
 
-- name: demo on loops
+- #name: demo on loops
   hosts: localhost
   tasks:
     - name: Loop on List
