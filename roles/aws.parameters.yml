@@ -9,6 +9,8 @@
       loop:
         - {name: "param.dev.catalogue.MONGO", value: "true"}
         - {name: "param.dev.user.MONGO", value: "true"}
-        - {name: "param.dev.docdb.USERNAME", value: "admin1"}
-        -  {name: "param.dev.docdb.PASSWORD", value: "admin123"}
+        - { name: "param.dev.docdb.USERNAME", value: "admin1" }
+        - { name: "param.dev.docdb.PASSWORD", value: "admin123" }
+        - { name: "param.dev.rds.USERNAME", value: "admin1" }
+        - { name: "param.dev.rds.PASSWORD", value: "admin123" }
 
